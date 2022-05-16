@@ -581,6 +581,7 @@ section.landing .profile:hover .inner-circle img{
 
 /* start about */
 section.about{
+    padding-top: 7rem;
     background-color: var(--color-light);
     padding-bottom: 0;
 }
@@ -606,6 +607,7 @@ section.about .container .image{
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding-top: 2rem;
 }
 
 @media (max-width:768px){
@@ -615,13 +617,25 @@ section.about .container .image{
 }
 
 section.about .container .image img{
-   width: 90%;
+   width: 50%;
    max-width: 100%;
    transition: var(--main-transition);
 }
 
+@media (max-width:992px){
+    section.about .container .image img{
+        width: 70%;
+    }
+}
+
+@media (max-width:768px){
+    section.about .container .image img{
+        width: 80%;
+    }
+}
+
 section.about .container .image:hover img{
-    transform: scale(1.1) translateY(2rem);
+    transform: scale(1.1);
 }
 
 section.about .container .info{
