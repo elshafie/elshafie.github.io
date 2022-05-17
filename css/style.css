@@ -11,6 +11,15 @@
     --main-transition: all 300ms ease;
 }
 
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: var(--color-primary-light);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--color-primary);
+    border-radius: 2rem;
+}
 
 *{
     margin: 0;
@@ -77,15 +86,17 @@ ul{
 }
 
 section{
-    padding: 10rem 0 7rem;
     max-width: 100vw;
+    min-height: 100vh;
     overflow-x: hidden;
+    padding-bottom: 3rem;
 }
 
 section h1{
     text-align: center;
     display: block;
-    margin-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     text-transform: uppercase;
 }
 
@@ -201,17 +212,17 @@ header{
     border-bottom: 1px solid var(--color-light);
 }
 
-@media (max-width:768px){
-    header{
-        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
-    }
-}
 
 header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
+}
+
+header.show-shadow{
+    box-shadow: 0 0.6rem 1rem var(--color-primary-light);
+    border: none;
 }
 
 @media (max-width:600px){
@@ -233,9 +244,10 @@ header .logo a h3{
 header nav{
     height: 100%;
     display: flex;
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
 }
+
 
 header nav ul{
     display: flex;
@@ -327,15 +339,12 @@ section.landing{
     display: grid;
     place-items: center;
     position: relative;
-    top: 5rem;
-    padding-bottom: 14rem;
 }
 
 @media (max-width:992px){
     section.landing{
-        margin-top: -7rem;
-        padding-bottom: 7rem;
-        max-width: 100vw;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
         overflow: hidden;
     }
 }
@@ -349,7 +358,7 @@ section.landing .container{
 @media (max-width:992px){
     section.landing .container{
         grid-template-columns: 1fr;
-        grid-template-rows: 42% 5%;
+        grid-template-rows: 45% 5% 50%;
         text-align: center;
         row-gap: 2rem;
     }
@@ -378,12 +387,18 @@ section.landing .social{
     section.landing .container .social{
         display: none;
     }
+
+    section.landing .container{
+        grid-template-rows: 35% 50%;
+        text-align: center;
+        row-gap: 2rem;
+    }
 }
 
 
 section.landing .social a{
     color: var(--color-dark);
-    padding: 0.3rem;
+    padding: 3rem;
     border-radius: 50%;
     height: 3rem;
     width: 3rem;
@@ -391,6 +406,16 @@ section.landing .social a{
     align-items: center;
     justify-content: center;
     transition: var(--main-transition);
+}
+
+section.landing .social a:hover{
+    animation: flip 1.5s ease forwards;
+}
+
+@keyframes flip {
+    to{
+        transform: rotateY(1080deg);
+    }
 }
 
 section.landing .social a i{
@@ -460,12 +485,13 @@ section.landing .profile{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: fit-content;
+    align-self: center;
 }
 
 @media (max-width:992px){
     section.landing .container .profile{
         grid-row: 1;
-        width: 94%;
         margin: 0 auto;
     }
 }
@@ -481,8 +507,8 @@ section.landing .profile .outer-circle{
 
 @media (max-width:992px){
     section.landing .container .profile .outer-circle{
-        width: 20rem;
-        height: 20rem;
+        width: 22rem;
+        height: 22rem;
     }
 }
 
@@ -581,19 +607,17 @@ section.landing .profile:hover .inner-circle img{
 
 /* start about */
 section.about{
-    padding-top: 7rem;
     background-color: var(--color-light);
-    padding-bottom: 0;
 }
 
 section.about .container{
     display: grid;
-    grid-template-columns: auto 50%;
+    grid-template-columns: auto 35%;
     /* grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr)); */
     gap: 5rem;
 }
 
-@media (max-width:768px){
+@media (max-width:992px){
     section.about .container{
         grid-template-columns: 1fr;
         gap: 1rem;
@@ -610,25 +634,33 @@ section.about .container .image{
     padding-top: 2rem;
 }
 
-@media (max-width:768px){
+@media (max-width:992px){
     section.about .container .image{
         grid-row: 1;
+        padding-bottom: 2rem;
+        place-self: center;
     }
 }
 
 section.about .container .image img{
-   width: 50%;
+   width: 90%;
    max-width: 100%;
    transition: var(--main-transition);
 }
 
 @media (max-width:992px){
     section.about .container .image img{
-        width: 70%;
+        width: 40%;
     }
 }
 
 @media (max-width:768px){
+    section.about .container .image img{
+        width: 50%;
+    }
+}
+
+@media (max-width:500px){
     section.about .container .image img{
         width: 80%;
     }
@@ -653,6 +685,10 @@ section.about .container .read-more-content{
     display: none;
 }
 
+section.about .container .read-more-content.show-content{
+    display: block;
+}
+
 section.about .container .read-more{
     display: block;
     margin: 1rem 0 2rem;
@@ -667,6 +703,10 @@ section.about .container .read-more:hover{
 /* end about */
 
 /* start skills */
+section.skills{
+    padding-bottom: 3rem;
+}
+
 section.skills .container{
     width: 60%;
 }
@@ -688,6 +728,15 @@ section.skills .container .skill .head{
     align-items: center;
     color: var(--color-white);
     padding: 1.6rem;
+    cursor: pointer;
+}
+
+section.skills .container .skill .items.show-items{
+    display: block;
+}
+
+section.skills .container .skill .items{
+    display: none;
 }
 
 section.skills .container .skill .head span{
@@ -790,8 +839,14 @@ section.services{
 
 section.services .container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
     gap: 2rem;
+}
+
+@media (max-width:768px){
+    section.services .container{
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    }
 }
 
 section.services .container .service{
@@ -801,6 +856,7 @@ section.services .container .service{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    border-radius: 2rem;
     cursor: default;
     transition: var(--main-transition);
 }
@@ -839,8 +895,9 @@ section.portfolio h2{
 
 section.portfolio .container .projects{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     gap: 2rem;
+    padding-bottom: 3rem;
 }
 
 section.portfolio .container .projects .project{
