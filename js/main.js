@@ -145,17 +145,25 @@ let portfolio = document.querySelector('.portfolio').clientHeight;
 let certificates = document.querySelector('.certificates').clientHeight;
 let contact = document.querySelector('.contact').clientHeight;
 
+window.addEventListener('resize', () => {
+ landing = document.querySelector('.landing').clientHeight;
+ skills = document.querySelector('.skills').clientHeight;
+ services = document.querySelector('.services').clientHeight;
+ portfolio = document.querySelector('.portfolio').clientHeight;
+ certificates = document.querySelector('.certificates').clientHeight;
+ contact = document.querySelector('.contact').clientHeight;
+ about = document.querySelector('.about').clientHeight;
+})
 
-changeActivaCase()
 
 window.addEventListener("scroll", () => {
-
   skills = document.querySelector('.skills').clientHeight;
   about = document.querySelector('.about').clientHeight;
 
   changeActivaCase()
   })
 
+changeActivaCase()
 
   function changeActivaCase(){
     if (window.scrollY < (landing - headerHeight)){
