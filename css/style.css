@@ -377,7 +377,7 @@ section.landing .social{
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 1.3rem;
+        gap: 1rem;
         margin-top: 0;
         grid-row: 2;
     }
@@ -405,27 +405,16 @@ section.landing .social a{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: var(--main-transition);
-}
-
-section.landing .social a:hover{
-    animation: flip 1.5s ease forwards;
-}
-
-@keyframes flip {
-    to{
-        transform: rotateY(1080deg);
-    }
 }
 
 section.landing .social a i{
     font-size: 2.5rem;
     font-weight: 500;
-    transition: var(--main-transition);
+    transition: transform 1.5s ease, color 3s ease;
 }
 
 section.landing .social a:hover i{
-    transform: scale(1.1);
+    transform: scale(1.1) rotateY(1080deg);;
 }
 
 section.landing .social a:hover:nth-of-type(1) i{
