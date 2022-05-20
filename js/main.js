@@ -125,6 +125,12 @@ skillItems.forEach(skill => {
 
 window.addEventListener('scroll', () => {
   document.querySelector('header').classList.toggle('show-shadow',window.scrollY > 0);
+
+  if (window.scrollY > (landing-80)){
+    document.querySelector('header').style.backgroundColor='var(--color-white)';
+  }else{
+    document.querySelector('header').style.backgroundColor='rgba(250 250 250 / 0.8)';
+  }
 })
 
 
