@@ -121,7 +121,7 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
             variants={childVarients}
             initial='hidden'
             whileInView='visible'
-            to='/researcher'
+            to='/researcher/'
             className={({ isActive }) => isActive
               ? 'flex items-center justify-center w-full h-full pt-0 sm:pt-0 -translate-y-1 sm:-translate-y-1 text-violet-800'
               : 'pt-0 sm:pt-0 flex items-center justify-center w-full h-full hover:-translate-y-1 sm:hover:-translate-y-1 hover:text-violet-800  transition-all'
@@ -135,7 +135,7 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
             variants={childVarients}
             initial='hidden'
             whileInView='visible'
-            to='/fullstack'
+            to='/fullstack/'
             className={({ isActive }) => isActive
               ? 'flex items-center justify-center w-full h-full pt-0 sm:pt-0 -translate-y-1 sm:-translate-y-1 text-violet-800'
               : 'pt-0 sm:pt-0 flex items-center justify-center w-full h-full hover:-translate-y-1 sm:hover:-translate-y-1 hover:text-violet-800  transition-all'
@@ -147,7 +147,7 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
             variants={childVarients}
             initial='hidden'
             whileInView='visible'
-            to='/video'
+            to='/video/'
             className={({ isActive }) => isActive
               ? 'flex items-center justify-center w-full h-full pt-0 sm:pt-0 -translate-y-1 sm:-translate-y-1 text-violet-800'
               : 'pt-0 sm:pt-0 flex items-center justify-center w-full h-full hover:-translate-y-1 sm:hover:-translate-y-1 hover:text-violet-800  transition-all'
@@ -159,7 +159,7 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
             variants={childVarients}
             initial='hidden'
             whileInView='visible'
-            to='/contact'
+            to='/contact/'
             className={({ isActive }) => isActive
               ? 'flex items-center justify-center w-full h-full pt-0 sm:pt-0 -translate-y-1 sm:-translate-y-1 text-violet-800'
               : 'pt-0 sm:pt-0 flex items-center justify-center w-full h-full hover:-translate-y-1 sm:hover:-translate-y-1 hover:text-violet-800  transition-all'

@@ -196,7 +196,7 @@ const HomeInfo = ({ currentStage }) => {
             className="font-bold mt-4 w-40 sm:w-60 inline-block left-0
           sm:text-xl">
             <Link className="btn !p-2 hover:text-fuchsia-700 flex items-center justify-between"
-              to='/researcher'>
+              to='/researcher/'>
               <span className="!text-xs">Feel free to  dive in</span>
               <span className="animate-right">
                 <BiRightArrowCircle className="inline-block  text-2xl" />
@@ -288,7 +288,7 @@ const HomeInfo = ({ currentStage }) => {
             className="font-bold mt-4 w-40 sm:w-60 inline-block left-0
           sm:text-xl">
             <Link className="btn !p-2 hover:text-fuchsia-700 flex items-center justify-between"
-              to='/fullstack'>
+              to='/fullstack/'>
               <span className="!text-xs">Feel free to  dive in</span>
               <span className="animate-right">
                 <BiRightArrowCircle className="inline-block  text-2xl" />
@@ -368,7 +368,7 @@ const HomeInfo = ({ currentStage }) => {
             className="font-bold mt-4 w-40 sm:w-60 inline-block left-0
           sm:text-xl">
             <Link className="btn !p-2 hover:text-fuchsia-700 flex items-center justify-between"
-              to='/video'>
+              to='/video/'>
               <span className="!text-xs">Feel free to  dive in</span>
               <span className="animate-right">
                 <BiRightArrowCircle className="inline-block  text-2xl" />
@@ -488,7 +488,7 @@ const HomeInfo = ({ currentStage }) => {
             className="font-bold mt-4 text-base w-44 sm:w-96 inline-block left-0
           sm:text-xl">
             <Link className="btn !p-1 hover:text-fuchsia-700 flex items-center justify-between"
-              to='/contact'>
+              to='/contact/'>
               <span className="">Send me a message</span>
               <BiRightArrowCircle className="animate-right  inline-block  text-2xl" />
             </Link>
