@@ -13,8 +13,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, "index.html"),
-        404: resolve(__dirname, "public/404.html"),
+        main: resolve("index.html"),
+        404: resolve("public/404.html"),
       },
     },
   },
