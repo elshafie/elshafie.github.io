@@ -992,7 +992,7 @@ export const portfolio = [
   {
     name: 'this.Portfolio😉',
     imgUrl: 'https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/portfolio%2Fportfolio-v2.webp?alt=media&token=e4c389b1-3dd4-49ae-be93-6e916e4ef0eb',
-    repo: '',
+    repo: 'https://github.com/elshafie/elshafie.github.io',
     live: './',
     description: `This is a personal Portfolio website that showcases my skills in web development using ReactJS library along with other technologies like ThreeJs, Saas, Tailwind`,
     skills: ['Vite', 'Tailwind', 'Sass', 'ThreeJs']
