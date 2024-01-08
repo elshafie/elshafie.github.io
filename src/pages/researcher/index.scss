@@ -1,0 +1,183 @@
+.researcher {
+
+
+  .landing-researcher {
+    .image svg {
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+
+    .animate-bounce {
+      animation-duration: 2s
+    }
+
+    .social {
+      a {
+
+        @apply rounded-lg;
+
+        svg {
+          transition: all 0.2s ease;
+        }
+
+        &:active {
+          transform: translate(2px, 2px);
+        }
+
+        &:hover {
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+          svg {
+            scale: 1.1;
+          }
+
+          .facebook {
+            svg {
+              @apply text-[#4267B2]
+            }
+          }
+
+          .github {
+            svg {
+              @apply text-[#333]
+            }
+          }
+
+          .linked {
+            svg {
+              @apply text-[#0077B5]
+            }
+          }
+
+          .twitter {
+            svg {
+              @apply text-[#1DA1F2]
+            }
+          }
+
+          .tiktok {
+            svg {
+              @apply text-[#000000]
+            }
+          }
+
+          .researchgate {
+            svg {
+              @apply text-[#04d4ac]
+            }
+          }
+
+          .orcid {
+            svg {
+              @apply text-[#a6ce39]
+            }
+          }
+        }
+
+
+        .insta {
+          color: white;
+          background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+
+          @apply sm:bg-none sm:bg-gray-200 sm:text-black;
+
+          &:hover {
+            color: white;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+          }
+        }
+
+
+      }
+
+    }
+
+  }
+
+
+
+
+  .about {
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background-color: rgb(192 132 252 / 0.4);
+      background-image: url('./src/assets/images/researcher.png');
+      background-size: contain;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center right;
+      opacity: 0.5;
+    }
+
+  }
+
+
+
+  .experiences {
+
+    .vertical-timeline-element-content {
+      margin-left: 38px;
+    }
+
+    // .vertical-timeline-element-date {
+    //   font-size: 0.8rem;
+    //   color: rgb(31 41 55 / var(--tw-text-opacity));
+    //   opacity: 0.9;
+    // }
+
+
+    @media (min-width:1170px) {
+      .vertical-timeline-element-icon {
+        left: 50% !important;
+        transform: translateX(50%);
+      }
+
+      .vertical-timeline-element-date {
+        color: black;
+        font-size: 1rem;
+        top: -5px;
+        left: 115%
+      }
+    }
+  }
+
+  .skills {}
+
+  .modal {
+    .swiper-wrapper {
+      display: flex;
+      align-items: center;
+    }
+
+    .swiper-pagination {
+      bottom: 20px
+    }
+
+
+    @media (max-width:640px) {
+      .swiper-button-next {
+        right: 0;
+      }
+
+      .swiper-button-prev {
+        left: 0;
+      }
+
+      .swiper-button-next,
+      .swiper-button-prev {
+        &::after {
+          font-size: 1rem;
+          font-weight: bold;
+        }
+      }
+    }
+
+
+  }
+
+
+}

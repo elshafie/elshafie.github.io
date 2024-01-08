@@ -1,0 +1,744 @@
+{
+  "experiences": [
+    {
+      "position": "Researcher",
+      "company": "Sakha Animal Production Research Station, APRI, ARC, Ministry of Agriculture",
+      "title": "Sakha Animal Production Research Station, Animal Production Research Institute (APRI), Agriculture Research Center (ARC), Ministry of Agriculture",
+      "startDate": "27-01-2021",
+      "endDate": "",
+      "location": "Kafr El-Sheikh, Egypt",
+      "description": "",
+      "icon": "",
+      "highlights": [
+        "Head of the reproduction department.",
+        "Specialist at Reproduction physiology (Artificial insemination, Superovulation, Embryo Production and transfer, and ultrasonography).",
+        "Management of the herd of the station (Holstein Herd and Aberdeen Herd)."
+      ],
+      "link": "http://www.arc.sci.eg/InstsLabs/ResDetails.aspx?TabId=3&lang=ar&ResID=103335&OrgId=7"
+    },
+    {
+      "position": "Lecturer",
+      "company": "Sakha Dairy Training Centre (SDTC), Sakha Animal Production Research Station, APRI, ARC",
+      "title": "Sakha Dairy Training Centre (SDTC), Sakha Animal Production Research Station, Animal Production Research Institute (APRI), Agriculture Research Center (ARC)",
+      "startDate": "22-01-2012",
+      "endDate": "",
+      "location": "Kafr El-Sheikh, Egypt",
+      "description": "",
+      "icon": "",
+      "highlights": [
+        "Taught several courses at several animal production topics to undergraduate and graduate students from the different universities all over Egypt and other trainees",
+        "management of the herd of the center (Holstein Herd and Buffalo Herd)."
+      ],
+      "link": ""
+    },
+    {
+      "position": "Assistant Researcher",
+      "company": "Sakha Animal Production Research Station, APRI, ARC",
+      "title": "Sakha Animal Production Research Station, Animal Production Research Institute (APRI), Agriculture Research Center (ARC), Ministry of Agriculture",
+      "startDate": "15-03-2020",
+      "endDate": "26-01-2021",
+      "location": "Kafr El-Sheikh, Egypt",
+      "description": "",
+      "icon": "",
+      "highlights": [
+        "management of the herd of the station (Holstein Herd and Aberdeen angus Herd).",
+        "Specialist at Reproduction physiology (Artificial insemination, Superovulation, Embryo Production and transfer …etc.)."
+      ],
+      "link": ""
+    },
+    {
+      "position": "Research Assistant",
+      "company": "Sakha Animal Production Research Station, APRI, ARC",
+      "title": "Sakha Animal Production Research Station, Animal Production Research Institute (APRI), Agriculture Research Center (ARC), Ministry of Agriculture",
+      "startDate": "05-08-2018",
+      "endDate": "14-03-2020",
+      "location": "Kafr El-Sheikh, Egypt",
+      "description": "",
+      "icon": "",
+      "highlights": [
+        "management of the herd of the station (Holstein Herd and Aberdeen angus Herd).",
+        "Specialist at Reproduction physiology (Artificial insemination, Superovulation, Embryo Production and transfer …etc.)."
+      ],
+      "link": ""
+    },
+    {
+      "position": "Animal Production Specialist",
+      "company": "International Livestock Management Training Center, APRI, ARC",
+      "title": "International Livestock Management Training Center, Animal Production Research Institute (APRI), Agriculture Research Center (ARC)",
+      "startDate": "22-01-2012",
+      "endDate": "04-08-2018",
+      "location": "Kafr El-Sheikh, Egypt",
+      "description": "",
+      "icon": "",
+      "highlights": [
+        "Working on Semen, Embryo Transfer, Nutrition and invitro fertilization Labs.",
+        "extracted the reports of feed and milk analysis.",
+        "Taught many trainees several courses at Artificial Insemination and Embryo Transfer."
+      ],
+      "link": ""
+    },
+    {
+      "position": "Farm Manager",
+      "company": "Alateqi farm (Kuwait dairy and food establishment)",
+      "startDate": "10-06-2010",
+      "endDate": "31-12-2011",
+      "location": "Agriculture salibiya, Gahra, Kuwait.",
+      "description": "",
+      "icon": "",
+      "highlights": [
+        "Managed farm processes",
+        "Controlled the reproduction of dairy cattle herd",
+        "designed different sheds"
+      ],
+      "link": ""
+    },
+    {
+      "position": "Animal Production Specialist",
+      "company": "Sakha Animal Production Research Station, APRI, ARC",
+      "title": "Sakha Animal Production Research Station, Animal Production Research Institute (APRI), Agriculture Research Center (ARC), Ministry of Agriculture",
+      "startDate": "01-08-2009",
+      "endDate": "09-06-2010",
+      "location": "Kafr El-Sheikh, Egypt",
+      "description": "",
+      "icon": "",
+      "highlights": ["Assistance the management of the station herd"],
+      "link": ""
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "details": "Ph.D. degree in Agricultural Sciences",
+      "faculty": "faculty of Agricultre",
+      "university": "Mansoura University",
+      "country": "Egypt",
+      "fieldOfStudy": "Animal Production",
+      "startDate": "2015",
+      "endDate": "11-27-2018",
+      "grade": "3.4/4",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F12.webp?alt=media&token=029dc7dd-9208-4f7d-8124-ca4ce93d295a"
+    },
+    {
+      "degree": "Master",
+      "details": "Master degree in Agricultural Sciences",
+      "faculty": "faculty of Agricultre",
+      "university": "Mansoura University",
+      "country": "Egypt",
+      "fieldOfStudy": "Animal Production",
+      "startDate": "2012",
+      "endDate": "11-24-2015",
+      "grade": "3.5/4",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F9.webp?alt=media&token=12dd5d87-f193-432c-b560-de643ca8bd12"
+    },
+    {
+      "degree": "Bachelor",
+      "details": "Bachelor degree in Agricultural Sciences",
+      "faculty": "faculty of Agricultre",
+      "university": "Kafr Elsheikh University",
+      "country": "Egypt",
+      "fieldOfStudy": "Animal Production",
+      "startDate": "2006",
+      "endDate": "07-27-2009",
+      "grade": "83.81%",
+      "honor": "very good with honor degree",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F4.webp?alt=media&token=8afffced-68aa-41a8-9fae-a2e522f9f23b"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Effect of Spirulina Nanoparticles or Selenium-Coated Spirulina Nanoparticles Supplemented to Freezing Extender on Bull Sperm Freezability",
+      "publisher": "Pak Vet J, 2023, 43(4): 739-747.",
+      "releaseDate": "2023",
+      "degree": "",
+      "type": "Article",
+      "link": "https://dx.doi.org/10.29261/pakvetj/2023.111"
+    },
+    {
+      "title": "Effects of propolis-loaded nanoliposomes fortification in extender on buffalo semen cryopreservation",
+      "publisher": "nature portfolio Scientific Reports 13(1), 2023",
+      "releaseDate": "2023",
+      "degree": "",
+      "type": "Article",
+      "link": "http://dx.doi.org/10.1038/s41598-023-37424-2"
+    },
+    {
+      "title": "Impact of Single or Multiple Doses of Pregnant Mare Serum Gonadotropin (PMSG) on Superovulatory Response of Post-Partum Friesian Cows",
+      "publisher": "J. Animal and Poultry Prod., Mansoura Univ., Vol. 9 (7): 295 - 304, 2018",
+      "releaseDate": "2018",
+      "degree": "",
+      "type": "Article",
+      "link": "http://dx.doi.org/10.21608/jappmu.2018.41112"
+    },
+    {
+      "title": "Effect of double or pre-synchronization Ovsynch protocols on follicular dynamics, progesterone profile and first service pregnancy rate in timed artificial insemination in Friesian cows",
+      "publisher": "J. Animal and Poultry Prod., Mansoura Univ., Vol. 6 (7): 459 - 469, 2015",
+      "releaseDate": "2015",
+      "degree": "",
+      "type": "Article",
+      "link": "http://dx.doi.org/10.21608/jappmu.2016.52898"
+    },
+    {
+      "title": "Hormonal control of estrus and superovulation for embryo production in cows: The role of pregnant mare serum gonadotrophin dose",
+      "publisher": "Mansoura University",
+      "releaseDate": "2018",
+      "degree": "Ph.D.",
+      "type": "Thesis",
+      "link": "http://dx.doi.org/10.13140/RG.2.2.20616.29442"
+    },
+    {
+      "title": "Effect of different ovulation synchronization systems on fertility at first postpartum timed AI in lactating dairy cows",
+      "publisher": "Mansoura University",
+      "releaseDate": "2015",
+      "degree": "Master",
+      "type": "Thesis",
+      "link": "http://dx.doi.org/10.13140/RG.2.2.27327.18088"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "Future of Livestock and Food Secuirty",
+      "organizer": "Faculty of Agriculture, Alexandria University, Egypt",
+      "startDate": "31-10-2023",
+      "endDate": "3-11-2023",
+      "place": "Alexandria University, Egypt",
+      "description": "The 6th International Conference of Animal and Fish Production and the 20th Conference of the Egyptian Society of Animal Production",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FAlex%20Conference-2.webp?alt=media&token=384d5af0-831f-40a5-aac3-cebfd392fe0e"
+    },
+    {
+      "name": "Applications of new techniques in agriculture",
+      "organizer": "Faculty of Agriculture, Tanta University, Egypt",
+      "startDate": "11-05-2022",
+      "endDate": "",
+      "place": "Tanta, Egypt",
+      "description": "The 1st Annual scientific conference",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FConference%20tanta.webp?alt=media&token=a00da344-9eee-4934-8d93-6b335130e12f"
+    },
+    {
+      "name": "Sustainable Management of Smart Livestock’s Farms",
+      "organizer": "Faculty of Agriculture (El-Shatby), Alexandria University, Egypt",
+      "startDate": "03-11-2021",
+      "endDate": "04-11-2021",
+      "place": "Alexandria University, Egypt",
+      "description": "The 5th International Conference, at the Department of Animal and Fish Production",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FAlex%20Conference.webp?alt=media&token=aac34432-415f-4411-9d8d-985cab1282a6"
+    },
+    {
+      "name": "Animal, Poultry Health and Community Health",
+      "organizer": "Faculty of Veterinary, Cairo University, Egypt",
+      "startDate": "23-08-2016",
+      "endDate": "27-08-2016",
+      "place": "Hurghada, Egypt",
+      "description": "The 8th Scientific Conference, Egyptian Society for Animal Management",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F1636576503410.webp?alt=media&token=bcc745b6-63c0-48de-a21c-7754f9feb6ae"
+    }
+  ],
+  "teachingExperiences": [
+    {
+      "courseName": "Cow Caring",
+      "description": "",
+      "graduated": false
+    },
+    {
+      "courseName": "Feeding Dairy Cows",
+      "description": "",
+      "graduated": false
+    },
+    {
+      "courseName": "Reproduction Physiology",
+      "description": "",
+      "graduated": false
+    },
+    {
+      "courseName": "Dairy Cattle Management",
+      "description": "",
+      "graduated": false
+    },
+    {
+      "courseName": "Semen Processing",
+      "description": "",
+      "graduated": true
+    },
+    {
+      "courseName": "Artificial Insemination",
+      "description": "",
+      "graduated": true
+    },
+    {
+      "courseName": "Ultrasonography Examination",
+      "description": "",
+      "graduated": true
+    },
+    {
+      "courseName": "Embryo transfer",
+      "description": "superovulation, embryo collecting, and embryo transfer",
+      "graduated": true
+    }
+  ],
+  "training": [
+    {
+      "title": "Dairy Production and Management",
+      "organizer": "The Pennsylvania State University and offered through Coursera",
+      "startDate": "",
+      "endDate": "06-2022",
+      "duration": "",
+      "location": "Coursera website",
+      "description": "",
+      "online": true,
+      "link": "",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2Fcoursera%20Dairy%20Production%20and%20Management.webp?alt=media&token=22c24b07-b912-4a66-a163-66e71d647fa0"
+    },
+    {
+      "title": "Care of the hoof in dairy cattle",
+      "organizer": "League of Arab States, Arab Organization for Agricultural Development, Egypt",
+      "startDate": "16-09-2012",
+      "endDate": "20-09-2012",
+      "duration": "",
+      "location": "Sakha Dairy Training Centre (SDTC), Sakha Animal Production Research Station, Animal Production Research Institute (APRI), Agriculture Research Center (ARC)",
+      "description": "",
+      "online": false,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F27.webp?alt=media&token=6fbbbd02-3e21-4e25-a9b7-afbe4d71faf7"
+    },
+    {
+      "title": "Manufacture of dairy products",
+      "organizer": "League of Arab States, Arab Organization for Agricultural Development, Egypt",
+      "startDate": "09-09-2012",
+      "endDate": "13-09-2012",
+      "duration": "",
+      "location": "Sakha Dairy Training Centre (SDTC), Sakha Animal Production Research Station, Animal Production Research Institute (APRI), Agriculture Research Center (ARC)",
+      "description": "",
+      "online": false,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F28.webp?alt=media&token=ff664546-cc72-4277-afa1-c33ba6c73e9c"
+    },
+    {
+      "title": "Feeding and Rearing calves",
+      "organizer": "Public Authority of Agriculture Affairs & Fish Resources, Kuwait",
+      "startDate": "11-12-2011",
+      "endDate": "15-12-2011",
+      "duration": "",
+      "location": "Public Authority of Agriculture Affairs & Fish Resources, Kuwait",
+      "description": "",
+      "online": false,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F29.webp?alt=media&token=bdc77ea0-0746-4b3c-a32e-aa65b4c94306"
+    },
+    {
+      "title": "Feeding dairy cows",
+      "organizer": "Public Authority of Agriculture Affairs & Fish Resources, Kuwait",
+      "startDate": "20-11-2011",
+      "endDate": "24-11-2011",
+      "duration": "",
+      "location": "Public Authority of Agriculture Affairs & Fish Resources, Kuwait",
+      "description": "",
+      "online": false,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F30.webp?alt=media&token=2526d3c3-db30-47d2-9413-838a31b7c7f2"
+    },
+    {
+      "title": "Dairy cattle management",
+      "organizer": "Public Authority of Agriculture Affairs & Fish Resources, Kuwait",
+      "startDate": "26-12-2010",
+      "endDate": "30-12-2010",
+      "duration": "",
+      "location": "Public Authority of Agriculture Affairs & Fish Resources, Kuwait",
+      "description": "",
+      "online": false,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F31.webp?alt=media&token=fd2f5ed7-a621-4ccc-bf36-7edc444a19a1"
+    },
+    {
+      "title": "Principle of dairy cattle Feeding",
+      "organizer": "Public Authority of Agriculture Affairs & Fish Resources, Kuwait",
+      "startDate": "21-11-2010",
+      "endDate": "25-11-2010",
+      "duration": "",
+      "location": "Public Authority of Agriculture Affairs & Fish Resources, Kuwait",
+      "description": "",
+      "online": false,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F32.webp?alt=media&token=49cfdf38-4c45-467d-be68-2def8e599205"
+    },
+    {
+      "title": "Artificial insemination and Embryo transfer in cattle",
+      "organizer": "Sakha Dairy Training Centre, Sakha Animal Production Research Station, APRI, ARC",
+      "startDate": "",
+      "endDate": "",
+      "duration": "",
+      "location": "Sakha Dairy Training Centre, Sakha Animal Production Research Station, APRI, ARC",
+      "description": "",
+      "online": false,
+      "imgUrl": ""
+    }
+  ],
+  "seminars": [
+    {
+      "title": "Animal Feeding: problems and solutions",
+      "description": "",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FAnimal%20feeding.webp?alt=media&token=9a29726e-2144-4d35-a068-eb04cb1dca05"
+    },
+    {
+      "title": "Artificial Insemination",
+      "description": ""
+    },
+    {
+      "title": "Feeding dairy cattle",
+      "description": ""
+    },
+    {
+      "title": "Embryo Transfer",
+      "description": ""
+    },
+    {
+      "title": "Super Ovulation",
+      "description": ""
+    },
+    {
+      "title": "Ov. Synchronization",
+      "description": ""
+    },
+    {
+      "title": "Dairy cattle selection",
+      "description": ""
+    },
+    {
+      "title": "Rearing calves",
+      "description": ""
+    },
+    {
+      "title": "Milking machines",
+      "description": ""
+    },
+    {
+      "title": "Principles of producing good milk",
+      "description": ""
+    },
+    {
+      "title": "Milk Fever",
+      "description": ""
+    },
+    {
+      "title": "Mastitis",
+      "description": ""
+    },
+    {
+      "title": "Records and recording systems in dairy farms",
+      "description": ""
+    }
+  ],
+  "extensionActivities": [
+    {
+      "organizer": "North Africa for Agribusiness Development (NAAD).",
+      "activityType": "Wrote and edited booklets of small farmers dairy herd management",
+      "date": "2021",
+      "description": "Wrote and edited booklets of small farmers dairy herd management for the project 'support rural communities in Egypt's delta in the dairy sector- RAWABET dairy'",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2Fextension.webp?alt=media&token=46c6e1f6-0479-4153-833b-0be3decdc47b"
+    }
+  ],
+  "skills": {
+    "languages": [
+      {
+        "language": "Arabic",
+        "level": "Mother tongue"
+      },
+      {
+        "language": "English",
+        "level": "very good",
+        "certificate": [
+          "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F1636576503432.webp?alt=media&token=08dcd9ed-98a9-4f8a-b17a-07452c080308",
+          "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FEnglish%20Intermediate%20level%20b1%2B.webp?alt=media&token=51353f5a-ed5f-4eff-bf55-96be0090db3b"
+        ]
+      },
+      {
+        "language": "Germany",
+        "level": "basic (A1)",
+        "certificate": []
+      }
+    ],
+    "computers": {
+      "software": [
+        "Microsoft Office",
+        "Adobe Photoshop",
+        "Adobe Premiere",
+        "Visual studio code"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React",
+        "Mongoo",
+        "Express",
+        "Node",
+        "SQL",
+        "Python",
+        "PHP",
+        "C++"
+      ],
+      "certificates": [
+        {
+          "title": "Meta Front-End Developer Professional Certificate",
+          "organizer": "Meta and offered through Coursera",
+          "date": "16-02-2023",
+          "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/FGAZLY6WUUFD",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FCoursera%20Meta%20Front-End%20Developer.webp?alt=media&token=f5dbc513-2126-45c9-be75-a6646767acaf",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "Build Your First React Website",
+          "organizer": "Coursera Project Network and offered through Coursera",
+          "date": "12-11-2022",
+          "link": "https://www.coursera.org/account/accomplishments/certificate/B78VKSTGZL48",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FCoursera%20Build%20Your%20First%20React%20Website.webp?alt=media&token=789eb3eb-7ed4-4418-b29f-ae6c1544f010",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "The Structured Query Language (SQL)",
+          "organizer": "University of Colorado Boulder and offered through Coursera",
+          "date": "29-06-2022",
+          "link": "https://www.coursera.org/account/accomplishments/certificate/5A47LUCEGBHX",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FCoursera%20The%20Structured%20Query%20Language%20(SQL).webp?alt=media&token=4f446d78-80e7-45a6-a8fc-acc3ea785fbd",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "Introduction to Structured Query Language (SQL)",
+          "organizer": "University of Michigan and offered through Coursera",
+          "date": "02-05-2022",
+          "link": "https://www.coursera.org/account/accomplishments/certificate/W9GN4ZHW7YFP",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FCoursera%20Introduction%20to%20Structured%20Query%20Language%20(SQL).webp?alt=media&token=4c4dda92-bbde-49dc-9ed1-6b5142d107ed",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "Web Design for Everybody: Basics of Web Development & Coding",
+          "organizer": "University of Michigan and offered through Coursera",
+          "date": "01-03-2022",
+          "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/YTKZZEZ5JTAP",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FCoursera%20Web%20Design%20for%20Everybody%20Basics%20of%20Web%20Development%20%26%20Coding.webp?alt=media&token=ab7c1fee-e2fb-44f0-8b4a-7a9f4f0c0752",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "Building Web Applications in PHP",
+          "organizer": "University of Michigan and offered through Coursera",
+          "date": "18-02-2022",
+          "link": "https://www.coursera.org/account/accomplishments/certificate/LXDY596RNXAH",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FCoursera%20Building%20Web%20Applications%20in%20PHP.webp?alt=media&token=c32b79bb-76e3-494e-a81f-81521c5d41f3",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "HTML, CSS, and Javascript for Web Developers",
+          "organizer": "Johns Hopkins University and offered through Coursera",
+          "date": "11-01-2022",
+          "link": "https://www.coursera.org/account/accomplishments/certificate/LAP9THC6ZMH4",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FCoursera%20HTML%2C%20CSS%2C%20and%20Javascript%20for%20Web%20Developers.webp?alt=media&token=e482d9ca-85b7-4705-9264-3227d994a6e5",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "Programming Foundations with JavaScript, HTML and CSS",
+          "organizer": "Duke University and offered through Coursera",
+          "date": "30-12-2021",
+          "link": "https://www.coursera.org/account/accomplishments/certificate/FU83AUV3D3BB",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FCoursera%20Programming%20Foundations%20with%20JavaScript%2C%20HTML%20and%20CSS.webp?alt=media&token=ca489f1c-d3c1-4678-8620-19b4bf2f1fe0",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "C for Everyone: Programming Fundamentals",
+          "organizer": "University of California, Santa Cruz and offered through Coursera",
+          "date": "24-12-2021",
+          "link": "https://www.coursera.org/account/accomplishments/certificate/KBLLZY9VTPFL",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FCoursera%20C%20for%20Everyone%20Programming%20Fundamentals.webp?alt=media&token=4b282d43-b992-4e18-8b0f-823805ed2841",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "Introduction to Web Development with HTML, CSS, JavaScript",
+          "organizer": "IBM and offered through Coursera",
+          "date": "29-12-2021",
+          "link": "https://www.coursera.org/account/accomplishments/certificate/NJEH9AEWRKVT",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FCoursera%20Introduction%20to%20Web%20Development%20with%20HTML%2C%20CSS%2C%20JavaScript.webp?alt=media&token=90672e34-f017-4a44-b1d5-d9ce1c236275",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "Introduction to Java",
+          "organizer": "LearnQuest and offered through Coursera",
+          "date": "18-12-2021",
+          "link": "https://www.coursera.org/account/accomplishments/certificate/EXNCDZ3UNVQ7",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FCoursera%20Introduction%20to%20Java.webp?alt=media&token=fe1c3611-3765-46c9-b7c4-4b915dbe7c4d",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "Responsive Web Design",
+          "organizer": "FreeCodeCamp",
+          "date": "26-10-2021",
+          "link": "https://www.freecodecamp.org/certification/fcc05b0a456-76e8-4a45-869c-8d33597320dd/responsive-web-design",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2Ffreecodecamp%20Responsive%20web%20design.webp?alt=media&token=3a021759-373a-430f-9841-0af6b6ce4133",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "JavaScript Algorithms and Data Structures",
+          "organizer": "FreeCodeCamp",
+          "date": "26-10-2021",
+          "link": "",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2Ffreecodecamp%20JavaScript%20Algorithms%20and%20Data%20Structures.webp?alt=media&token=da5a40b5-cb74-4c7f-a166-d79d0cb36b92",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "Cs50’s Introduction to Computer Science",
+          "organizer": "Harvard University",
+          "date": "27-08-2021",
+          "link": "https://courses.edx.org/certificates/b02af443590c4919b1678900d16abb9e",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2FHarvard%20cs50.webp?alt=media&token=9540d518-813e-4041-b8f3-38f9bc8fff14",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "The web development challenger track",
+          "organizer": "EgyptFWD",
+          "date": "10-2020",
+          "link": "",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2Fegypt%20fwd%20Web%20development%20Track.webp?alt=media&token=1a4949d0-398a-483f-ba17-03367c6fd9c5",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "The data challenger track",
+          "organizer": "EgyptFWD",
+          "date": "10-2020",
+          "link": "",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2Fegypt%20fwd%20Data%20challenger%20track.webp?alt=media&token=16081fd0-c5a1-4259-b235-3305d605f1fd",
+          "description": "",
+          "online": true
+        },
+        {
+          "title": "International Computer driving license (ICDL)",
+          "organizer": "Computer Sciences and Technology Information Training Center, Kafr ElSheikh, Egypt.",
+          "date": "04-07-2018",
+          "link": "https://icdlarabia.org/e/46AC0A",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F14.webp?alt=media&token=cc749e3b-2e7b-4f93-b28b-5f626b65a031",
+          "description": "",
+          "online": false
+        },
+        {
+          "title": "Windows-Internet-programming Concepts",
+          "organizer": "Arabic Group for Computer (AGC), Tanta, Egypt",
+          "date": "15-05-2010",
+          "link": "",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F15.webp?alt=media&token=d52ab002-2707-4c8f-b73e-4dd7617c28f1",
+          "description": "Advanced web developer",
+          "online": false
+        },
+        {
+          "title": "Advanced Project system Company",
+          "organizer": "Arabic Group for Computer (AGC), Tanta, Egypt",
+          "date": "15-03-2010",
+          "link": "",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F16.webp?alt=media&token=ffdfa665-0017-4817-9e5f-4f70e2f15b71",
+          "description": "Database management system programming, Advanced programming & programming languages",
+          "online": false
+        },
+        {
+          "title": "PC Maintenance (Hardware & Software) L I, I I",
+          "organizer": "Computer Sciences and Technology Information Training Center, Kafr El-Sheikh, Egypt.",
+          "date": "12-09-2005",
+          "link": "",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F18.webp?alt=media&token=310d530f-381d-4af5-9973-187f5c412fe7",
+          "description": "",
+          "online": false
+        },
+        {
+          "title": "Introd., Windows, MS – Office 2000 (word, Excel) LI & Internet",
+          "organizer": "Computer Sciences and Technology Information Training Center, Kafr El-Sheikh, Egypt.",
+          "date": "05-09-2005",
+          "link": "",
+          "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F17.webp?alt=media&token=a3093022-a0ac-4fa1-94fb-ff60a6b36824",
+          "description": "",
+          "online": false
+        }
+      ]
+    }
+  },
+  "volunteer": [
+    {
+      "role": "media team",
+      "orgName": "TEDx Kafrelsheikh",
+      "from": "2012",
+      "to": "2015",
+      "desc": "Edited, Montage, and Produced TEDx videos.",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F33.webp?alt=media&token=201482ab-dfdd-4cb1-9738-6446dcf40a8a"
+    },
+    {
+      "role": "media team",
+      "orgName": "TEDx Tanta",
+      "from": "2013",
+      "to": "2014",
+      "desc": "Edited, Montage, and Produced TEDx videos.",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F34.webp?alt=media&token=7e90cabf-00e1-4480-adc8-0395ceb9dfe1"
+    }
+  ],
+  "honors": [
+    {
+      "award": "The 1st ideal student of Faculty and The 3rd ideal student of Kafr El–Sheikh University",
+      "date": "29-08-2009",
+      "organizer": "Kafr El–Sheikh University",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F23.webp?alt=media&token=70625ae2-8f3c-43e4-8d8f-ee1650dee81f"
+    },
+    {
+      "award": "The 4th level for student Social Research among Egyptian Universities",
+      "date": "29-08-2009",
+      "organizer": "Kafr El–Sheikh University",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F24.webp?alt=media&token=772122d7-350d-4261-8ccd-ef6ce85992af"
+    },
+    {
+      "award": "Active participating in beach championship games",
+      "date": "17-08-2009",
+      "organizer": "Kafr El–Sheikh University",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F26.webp?alt=media&token=d141d97d-da0f-4874-a733-858f526e84eb"
+    },
+    {
+      "award": "Participating in the 3rd meeting of scientifically gifted students at Egyptian universities",
+      "date": "15-04-2009",
+      "organizer": "South Valley University",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F22.webp?alt=media&token=60d9a35d-c544-4bb8-a3e2-ab1ee5ef8640"
+    },
+    {
+      "award": "Active participating in Agricultural Cycle thirty-seventh",
+      "date": "04-02-2009",
+      "organizer": "Faculty of Agriculture, Assuit University",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F21.webp?alt=media&token=bfc30193-680d-4272-8a68-045cafaca517"
+    },
+    {
+      "award": "Active participating in beach championship games",
+      "date": "01-07-2008",
+      "organizer": "Kafr El–Sheikh University",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/certificates%2F25.webp?alt=media&token=679cf56c-0478-4c56-821d-703ef273f673"
+    }
+  ],
+  "contact": {
+    "email": [
+      "m.elshafie@arc.sci.eg",
+      "m_elshafie15@yahoo.com",
+      "m.elshafie15@yahoo.com",
+      "m.elshafie15@gmail.com"
+    ],
+    "phoneNumber": "+201013618338",
+    "address": "Sakha animal production research station apartments, Kafr El-Sheikh, Egypt.",
+    "website": "https://elshafie.github.io",
+    "socialMedia": {
+      "github": "https://github.com/elshafie",
+      "twitter": "https://twitter.com/m_elshafie15",
+      "facebook": "https://www.facebook.com/mohammed.elshafie50/",
+      "instagram": "https://www.instagram.com/m_elshafie15/",
+      "linkedin": "https://www.linkedin.com/in/mohammed-elshafie-abd-elkader-omar/"
+    },
+    "researchApps": {
+      "googleScholar": "https://scholar.google.com/citations?user=QsUzu0QAAAAJ&hl=en",
+      "orcid": "https://orcid.org/0000-0002-0967-4912",
+      "researchGate": "https://www.researchgate.net/profile/Mohammed-Omar-18"
+    }
+  }
+}
