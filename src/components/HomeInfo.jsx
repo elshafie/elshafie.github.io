@@ -12,11 +12,6 @@ import CardInfo from "./CardInfo";
 
 import { BiRightArrowCircle, BiSolidLeftArrowSquare, BiSolidRightArrowSquare } from "react-icons/bi";
 
-import myPhoto from '../../src/assets/images/main.png'
-import researcherImage from '../../src/assets/images/researcher.png'
-import fullStackImage from '../../src/assets/images/full-stack.png'
-import designerImage from '../../src/assets/images/video.png'
-
 
 const HomeInfo = ({ currentStage }) => {
 
@@ -25,7 +20,7 @@ const HomeInfo = ({ currentStage }) => {
 
   if (currentStage === 1)
     return (
-      <CardInfo imgUrl={myPhoto}>
+      <CardInfo imgUrl={'https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/assets%2Fmain.webp?alt=media&token=92e2c2dc-543b-46a8-9ce4-4a703774e674'}>
 
         <div className="relative">
 
@@ -132,7 +127,7 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 2) {
     return (
 
-      <CardInfo imgUrl={researcherImage}>
+      <CardInfo imgUrl={'https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/assets%2Fresearcher.webp?alt=media&token=ca96f927-ee3e-407a-8d18-2ac238dcd911'}>
 
         <div className="relative pt-2">
           <motion.span
@@ -213,7 +208,7 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 3) {
     return (
 
-      <CardInfo imgUrl={fullStackImage}>
+      <CardInfo imgUrl={'https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/assets%2Ffull-stack.webp?alt=media&token=8c8b739b-0686-4e96-b39b-d34407fdea8d'}>
         <div className="relative">
           <motion.span
             initial={{ opacity: 0, x: -50 }}
@@ -304,7 +299,7 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 4) {
     return (
 
-      <CardInfo imgUrl={designerImage}>
+      <CardInfo imgUrl={'https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/assets%2Fvideo.webp?alt=media&token=218012ff-879b-4636-aab1-a7b1af493e87'}>
         <div className="">
           <h2 className='text-center py-0 text-violet-800 mx-0 text-3xl px-0 font-bold uppercase
           sm:leading-none sm:py-0 sm:px-2 sm:text-5xl

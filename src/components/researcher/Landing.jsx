@@ -9,7 +9,7 @@ import data from '../../data/data-2023.json'
 
 import { motion } from 'framer-motion';
 
-import researcherImage from '../../assets/images/researcher.png'
+
 
 const Landing = () => {
 
@@ -20,11 +20,11 @@ const Landing = () => {
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className='heading'>
+        className='heading xl:pt-8'>
         <h1
           className='relative text-3xl text-center font-extrabold uppercase sm:text-4xl md:text-5xl tracking-widest lg:text-6xl pt-4 sm:p-4 text-indigo-950/80 cursor-default'>
           <span
-            className='absolute -top-2 sm:top-[-15px] md:top-[-30px] lg:top-[-50px] capitalize font-normal text-gray-700 hover:scale-105 hover:-translate-y-1 transition-all'>I'm
+            className='absolute -top-2 sm:top-[-15px] md:top-[-30px] lg:top-[-50px] capitalize font-normal text-gray-800 dark:text-gray-100 hover:scale-105 hover:-translate-y-1 transition-all'>I'm
           </span>
 
           <span className='inline-block'>
@@ -117,7 +117,7 @@ const Landing = () => {
               type: 'spring', stiffness: 200, damping: 15
             }}
             className='w-[70%] xl:w-[55%]'
-            src={researcherImage} alt="" />
+            src={'https://firebasestorage.googleapis.com/v0/b/storage-15.appspot.com/o/assets%2Fresearcher.webp?alt=media&token=ca96f927-ee3e-407a-8d18-2ac238dcd911'} alt="" />
 
         </div>
 
@@ -128,14 +128,14 @@ const Landing = () => {
             duration: 0.5
           }}
           className="sm:order-1 sm:flex-[2] pt-6 sm:p-6 text-center sm:text-justify lg:px-20">
-          <h5
+          <h2
             className='relative text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold'>
             <span
               className='absolute text-xl font-light top-[-20px] sm:top-[-25px] lg:top-[-35px] normal-case'>
               I'm a
             </span>
             {data.experiences[0].position}
-          </h5>
+          </h2>
           <p className='text-sm sm:text-base md:text-lg  lg:text-xl font-normal'>
             at {data.experiences[0].company}.
           </p>
@@ -182,8 +182,9 @@ const Landing = () => {
               stiffness: 300,
               damping: 15,
             }}
+            aria-label="Research gate"
             className="researchgate w-8 h-8 sm:w-10 sm:h-10 bg-white sm:bg-gray-200 hover:bg-white rounded-lg flex items-center justify-center">
-            <FontAwesomeIcon className='text-[#04d4ac] sm:text-gray-600 sm:w-8 sm:h-8' icon={faResearchgate} size='xl' />
+            <FontAwesomeIcon aria-label="research gate" className='text-[#04d4ac] sm:text-gray-600 sm:w-8 sm:h-8' icon={faResearchgate} size='xl' />
           </motion.div>
         </Link>
 
@@ -199,8 +200,9 @@ const Landing = () => {
               damping: 15,
               delay: 0.1
             }}
+            aria-label="Orcid"
             className="orcid w-8 h-8 sm:w-10 sm:h-10 bg-white sm:bg-gray-200 hover:bg-white rounded-lg flex items-center justify-center">
-            <FontAwesomeIcon className='text-[#a6ce39] sm:text-gray-600 sm:w-8 sm:h-8' icon={faOrcid} size='xl' />
+            <FontAwesomeIcon aria-label="orcid" className='text-[#a6ce39] sm:text-gray-600 sm:w-8 sm:h-8' icon={faOrcid} size='xl' />
           </motion.div>
         </Link>
 
@@ -216,9 +218,11 @@ const Landing = () => {
               damping: 15,
               delay: 0.2
             }}
+            aria-label="facebook"
             className="facebook w-8 h-8 sm:w-10 sm:h-10 bg-white sm:bg-gray-200 hover:bg-white rounded-lg flex items-center justify-center">
             <FontAwesomeIcon
               className="text-[#4267B2] sm:text-gray-600 sm:w-8 sm:h-8"
+              aria-label="facebook"
               icon={faFacebook}
               size="lg" />
           </motion.div>
@@ -235,9 +239,11 @@ const Landing = () => {
               damping: 15,
               delay: 0.3
             }}
+            aria-label="linked in"
             className="linked w-8 h-8 sm:w-10 sm:h-10 bg-white sm:bg-gray-200 hover:bg-white rounded-lg flex items-center justify-center">
             <FontAwesomeIcon
               className="text-[#0077B5] sm:text-gray-600  sm:w-8 sm:h-8"
+              aria-label="linked in"
               icon={faLinkedin} size="lg" />
           </motion.div>
         </Link>
