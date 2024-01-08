@@ -10,7 +10,7 @@
 
     <title>ELSHAFIE</title>
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       (function (l) {
         if (l.search[1] === "/") {
           var decoded = l.search
@@ -27,9 +27,19 @@
           );
         }
       })(window.location);
+    </script> -->
+
+    <script>
+      (() => {
+        const redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
     </script>
-    <script type="module" crossorigin src="/assets/index-MiloLS91.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Q4atmQ0C.css">
+    <script type="module" crossorigin src="/assets/main-izbgXTsX.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-Q4atmQ0C.css">
   </head>
   <body>
     <div id="root"></div>
