@@ -108,13 +108,14 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
             initial='hidden'
             whileInView='visible'
             to='/'
+            aria-label="home"
             className={({ isActive }) => isActive
               ? 'flex items-center justify-center w-full h-full pt-0 sm:pt-0 -translate-y-1 sm:-translate-y-1 text-violet-800'
               : 'pt-0 sm:pt-0 flex items-center justify-center w-full h-full hover:-translate-y-1 sm:hover:-translate-y-1 hover:text-violet-800  transition-all'
             }
             onClick={() => setViewMenu(false)}
           >
-            <BiHome className={`w-8 h-8`} />
+            <BiHome aria-label="home" className={`w-8 h-8`} />
           </MotionLink>
 
           <MotionLink
@@ -122,13 +123,14 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
             initial='hidden'
             whileInView='visible'
             to='/researcher/'
+            aria-label="researcher"
             className={({ isActive }) => isActive
               ? 'flex items-center justify-center w-full h-full pt-0 sm:pt-0 -translate-y-1 sm:-translate-y-1 text-violet-800'
               : 'pt-0 sm:pt-0 flex items-center justify-center w-full h-full hover:-translate-y-1 sm:hover:-translate-y-1 hover:text-violet-800  transition-all'
             }
             onClick={() => setViewMenu(false)}
           >
-            <TbMicroscope className={`w-8 h-8`} />
+            <TbMicroscope aria-label="researcher" className={`w-8 h-8`} />
           </MotionLink>
 
           <MotionLink
@@ -136,11 +138,12 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
             initial='hidden'
             whileInView='visible'
             to='/fullstack/'
+            aria-label="fullstack"
             className={({ isActive }) => isActive
               ? 'flex items-center justify-center w-full h-full pt-0 sm:pt-0 -translate-y-1 sm:-translate-y-1 text-violet-800'
               : 'pt-0 sm:pt-0 flex items-center justify-center w-full h-full hover:-translate-y-1 sm:hover:-translate-y-1 hover:text-violet-800  transition-all'
             }>
-            <BiCodeAlt className={`w-8 h-8`} />
+            <BiCodeAlt aria-label="fullstack" className={`w-8 h-8`} />
           </MotionLink>
 
           <MotionLink
@@ -148,11 +151,12 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
             initial='hidden'
             whileInView='visible'
             to='/video/'
+            aria-label="video"
             className={({ isActive }) => isActive
               ? 'flex items-center justify-center w-full h-full pt-0 sm:pt-0 -translate-y-1 sm:-translate-y-1 text-violet-800'
               : 'pt-0 sm:pt-0 flex items-center justify-center w-full h-full hover:-translate-y-1 sm:hover:-translate-y-1 hover:text-violet-800  transition-all'
             }>
-            <BiVideo className={`w-8 h-8`} />
+            <BiVideo aria-label="video" className={`w-8 h-8`} />
           </MotionLink>
 
           <MotionLink
@@ -160,11 +164,12 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
             initial='hidden'
             whileInView='visible'
             to='/contact/'
+            aria-label="contact"
             className={({ isActive }) => isActive
               ? 'flex items-center justify-center w-full h-full pt-0 sm:pt-0 -translate-y-1 sm:-translate-y-1 text-violet-800'
               : 'pt-0 sm:pt-0 flex items-center justify-center w-full h-full hover:-translate-y-1 sm:hover:-translate-y-1 hover:text-violet-800  transition-all'
             }>
-            <BiPhone className={`w-8 h-8`} />
+            <BiPhone aria-label="contact" className={`w-8 h-8`} />
           </MotionLink>
         </motion.nav>
       </div>
