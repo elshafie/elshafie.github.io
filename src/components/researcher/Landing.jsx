@@ -9,7 +9,7 @@ import data from '../../data/data-2023.json'
 
 import { motion } from 'framer-motion';
 
-import researcherImage from '../../../src/assets/images/researcher.png'
+import researcherImage from '../../assets/images/researcher.png'
 
 const Landing = () => {
 
