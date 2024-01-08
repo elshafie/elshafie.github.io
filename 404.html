@@ -9,7 +9,7 @@
     <meta name="'description" content="This is My portfolio" />
 
     <title>ELSHAFIE</title>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       var pathSegmentsToKeep = 0;
 
       var l = window.location;
@@ -30,6 +30,23 @@
             .join("/")
             .replace(/&/g, "~and~") +
           (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+          l.hash
+      );
+    </script> -->
+
+    <script type="text/javascript">
+      var pathSegmentsToKeep = 0;
+
+      var l = window.location;
+      l.replace(
+        l.protocol +
+          "//" +
+          l.hostname +
+          (l.port ? ":" + l.port : "") +
+          l.pathname
+            .split("/")
+            .slice(0, 1 + pathSegmentsToKeep)
+            .join("/") +
           l.hash
       );
     </script>
