@@ -487,7 +487,7 @@ const HomeInfo = ({ currentStage }) => {
             transition={{ duration: 0.2, delay: 0.2 }}
             className="font-bold mt-4 text-base w-44 sm:w-96 inline-block left-0
           sm:text-xl">
-            <Link className="btn !p-1 hover:text-fuchsia-700 flex items-center justify-between"
+            <Link className="btn !p-3 hover:text-fuchsia-700 flex items-center justify-between"
               to='/contact/'>
               <span className="">Send me a message</span>
               <BiRightArrowCircle className="animate-right  inline-block  text-2xl" />
