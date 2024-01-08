@@ -10,12 +10,12 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ["js-big-decimal"],
   },
-  build: {
-    rollupOptions: {
-      input: {
-        main: resolve("index.html"),
-        404: resolve("public/404.html"),
-      },
-    },
-  },
+  // build: {
+  //   rollupOptions: {
+  //     input: {
+  //       main: resolve("index.html"),
+  //       404: resolve("public/404.html"),
+  //     },
+  //   },
+  // },
 });
