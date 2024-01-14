@@ -80,7 +80,7 @@ const Skills = () => {
               delay: 0,
               staggerChildren: 0.2
             }}
-            className='w-full sm:w-[45%] lg:w-[35%] xl:w-[33%] sm:h-[55dvh] xl:h-[40dvh] flex flex-col items-center justify-center border-[1px] rounded-lg text-center px-2 py-3 glassmorphism'>
+            className='w-full sm:w-[45%] lg:w-[35%] xl:w-[32%] sm:h-[28rem] xl:h-96 flex flex-col items-center justify-center border-[1px] rounded-lg text-center px-2 py-3 glassmorphism'>
             <div className='flex-[1] w-full p-2 flex items-center justify-center flex-col group'>
               <h2 className='tracking-widest text-2xl font-extrabold text-center cursor-default'>Front End Skills</h2>
 
@@ -88,7 +88,7 @@ const Skills = () => {
 
             </div>
 
-            <div className='flex-[5] flex flex-wrap items-start content-start justify-center pt-4 gap-8 sm:gap-4'>
+            <div className='flex-[5] flex flex-wrap items-start content-start justify-center pt-4 gap-8 sm:gap-4 xl:gap-3'>
 
               {skills.frontEnd.map((skill, i) => (
                 <motion.div
@@ -119,7 +119,7 @@ const Skills = () => {
               damping: 10,
               delay: 0.1
             }}
-            className='w-full sm:w-[45%] lg:w-[33%] xl:w-[30%] sm:h-[55dvh] xl:h-[40dvh] flex flex-col items-center justify-center border-[1px] rounded-lg text-center p-6 glassmorphism'>
+            className='w-full sm:w-[45%] lg:w-[33%] xl:w-[32%] sm:h-[28rem] xl:h-96 flex flex-col items-center justify-center border-[1px] rounded-lg text-center p-6 glassmorphism'>
             <div className='flex-[1] w-full p-2 flex items-center justify-center'>
               <h2 className='tracking-widest text-2xl font-extrabold text-center'>Back End Skills</h2>
             </div>
@@ -129,7 +129,7 @@ const Skills = () => {
               {skills.backEnd.map((skill, i) => (
                 <div className={`relative overflow-hidden group `} key={i}>
 
-                  <div className={`${skill.classnames} text-7xl w-26 h-26 sm:p-3 flex items-center justify-center  transition-all`}>
+                  <div className={`${skill.classnames} text-7xl w-26 h-26 sm:w-20 sm:h-20 md:w-24 md:h-24 sm:p-3 flex items-center justify-center  transition-all`}>
                     {skill.icon}
                   </div>
 
@@ -151,7 +151,7 @@ const Skills = () => {
               damping: 10,
               delay: 0.2
             }}
-            className='w-full sm:w-[45%] lg:w-[33%] xl:w-[30%] lg:h-[50dvh] xl:h-[40dvh] flex flex-col items-center justify-center border-[1px] rounded-lg text-center p-6 glassmorphism'>
+            className='w-full sm:w-[45%] lg:w-[33%] xl:w-[32%] xl:h-[24rem] flex flex-col items-center justify-center border-[1px] rounded-lg text-center p-6 glassmorphism'>
 
             <div className='flex-[1] w-full p-2 flex items-center justify-center'>
               <h2 className='tracking-widest text-2xl font-extrabold text-center'>Mobile Skills</h2>

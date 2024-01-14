@@ -64,7 +64,8 @@ const Services = () => {
 
         </div>
 
-        <div className='w-full lg:flex-[2] h-full'>
+        <div className='w-full lg:flex-[2] h-full py-6'>
+
           <div className="services flex flex-wrap flex-col 
           items-center justify-center gap-4
           sm:flex-row
@@ -80,12 +81,12 @@ const Services = () => {
                 damping: 10,
                 delay: 0
               }}
-              className="service flex flex-col items-center justify-between border-[1px] rounded-lg p-4 border-gray-100 sm:w-[40%] lg:w-[30%] sm:h-[40dvh] glassmorphism">
+              className="service flex flex-col items-center justify-between border-[1px] rounded-lg p-4 border-gray-100 sm:w-[45%] xl:w-[30%] sm:h-[32rem] md:h-[28rem] glassmorphism">
               <div className="title flex-[1] p-2 text-3xl font-semibold">
                 <h3 className='cursor-default'>Front End</h3>
               </div>
 
-              <div className="image flex-[2] p-2 w-full flex items-center justify-center">
+              <div className="image flex-[2] p-2 w-full flex items-center justify-center hover:text-violet-400/80">
                 <LiaLaptopCodeSolid className='text-7xl' />
               </div>
 
@@ -109,12 +110,12 @@ const Services = () => {
               }}
               whileHover={{ y: -10, transition: { delay: 0 } }}
 
-              className="service flex flex-col items-center justify-between border-[1px] rounded-lg p-4 border-gray-100 sm:w-[40%] lg:w-[30%] sm:h-[40dvh] glassmorphism">
+              className="service flex flex-col items-center justify-between border-[1px] rounded-lg p-4 border-gray-100 sm:w-[45%] xl:w-[30%] sm:h-[32rem] md:h-[28rem] glassmorphism">
               <div className="title flex-[1] p-2 text-3xl font-semibold">
                 <h3 className='cursor-default'>Back End</h3>
               </div>
 
-              <div className="image flex-[2] p-2 w-full flex items-center justify-center">
+              <div className="image flex-[2] p-2 w-full flex items-center justify-center hover:text-violet-400/80">
                 <TbSettingsCode className='text-6xl' />
               </div>
 
@@ -136,12 +137,12 @@ const Services = () => {
                 damping: 10,
                 delay: 0.2
               }}
-              className="service flex flex-col items-center justify-between border-[1px] rounded-lg p-4 border-gray-100 sm:w-[40%] lg:w-[30%] sm:h-[40dvh] glassmorphism">
+              className="service flex flex-col items-center justify-between border-[1px] rounded-lg p-4 border-gray-100 sm:w-[45%] xl:w-[30%] xl:h-[28rem] glassmorphism">
               <div className="title flex-[1] p-2 text-3xl font-semibold">
                 <h3 className='cursor-default'>Full Stack</h3>
               </div>
 
-              <div className="image flex-[2] p-2 w-full flex items-center justify-center">
+              <div className="image flex-[2] p-2 w-full flex items-center justify-center hover:text-violet-400/80">
                 <TbWorldCode className='text-6xl' />
               </div>
 

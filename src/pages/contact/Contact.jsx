@@ -6,7 +6,11 @@ const Contact = () => {
   }, [])
 
   return (
-    <div>Contact</div>
+    <section className="min-h-[89dvh] flex items-center justify-center text-center">
+      <div className="w-full flex-1">
+        <h1>Contact</h1>
+      </div>
+    </section>
   )
 }
 

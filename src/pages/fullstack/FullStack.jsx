@@ -1,9 +1,14 @@
+import { useEffect } from "react"
 import { About, Landing, Skills, Portfolio, Certificates, Services } from "../../components/fullstack"
 
 
 
 const FullStack = () => {
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+
+  }, [])
 
 
   return (

@@ -21,7 +21,7 @@ const Project = ({ project, index }) => {
         damping: 15,
         delay: 0.15 + (index * 0.02)
       }}
-      className="flex flex-col items-center justify-between w-full gap-2 sm:w-[40dvw] sm:h-[50dvh] md:w-[30dvw] md:h-[50dvh] lg:h-[45dvh] xl:w-[20dvw] xl:h-[40dvh] border-2 rounded-xl p-2 overflow-hidden hover:shadow-xl glassmorphism">
+      className="flex flex-col items-center justify-between w-full gap-2 sm:w-[40%] lg:w-[30%] xl:w-[23%] sm:h-[28rem] md:h-[25rem] rounded-xl p-2 overflow-hidden hover:shadow-xl glassmorphism">
 
       <div className="flex-[1] w-full title text-xl font-bold p-2 group">
         <h2 className="cursor-default">{name}</h2>
@@ -31,8 +31,8 @@ const Project = ({ project, index }) => {
       <motion.div
         initial={{ rotate: 0 }}
         whileHover={{ rotate: 2 }}
-        className="flex-[7] image flex items-center justify-center w-full rounded-2xl overflow-hidden">
-        <img className="w-full h-full object-cover" src={imgUrl} alt={`Screenshot of ${name}`} />
+        className="flex-[7] image flex items-center justify-center w-full overflow-hidden">
+        <img className="w-full h-full object-contain  rounded-2xl" src={imgUrl} alt={`Screenshot of ${name}`} />
       </motion.div>
 
       <div className="flex-[4] desc p-2 text-sm leading-4">

@@ -192,7 +192,7 @@ const HomeInfo = ({ currentStage }) => {
           sm:text-xl">
             <Link className="btn !p-2 hover:text-fuchsia-700 flex items-center justify-between"
               to='/researcher/'>
-              <span className="!text-xs">Feel free to  dive in</span>
+              <span className="text-xs sm:text-base">Feel free to  dive in</span>
               <span className="animate-right">
                 <BiRightArrowCircle className="inline-block  text-2xl" />
               </span>
@@ -284,7 +284,7 @@ const HomeInfo = ({ currentStage }) => {
           sm:text-xl">
             <Link className="btn !p-2 hover:text-fuchsia-700 flex items-center justify-between"
               to='/fullstack/'>
-              <span className="!text-xs">Feel free to  dive in</span>
+              <span className="text-xs sm:text-base">Feel free to  dive in</span>
               <span className="animate-right">
                 <BiRightArrowCircle className="inline-block  text-2xl" />
               </span>
@@ -364,7 +364,7 @@ const HomeInfo = ({ currentStage }) => {
           sm:text-xl">
             <Link className="btn !p-2 hover:text-fuchsia-700 flex items-center justify-between"
               to='/video/'>
-              <span className="!text-xs">Feel free to  dive in</span>
+              <span className="text-xs sm:text-base">Feel free to  dive in</span>
               <span className="animate-right">
                 <BiRightArrowCircle className="inline-block  text-2xl" />
               </span>
@@ -383,7 +383,7 @@ const HomeInfo = ({ currentStage }) => {
         initial={{ x: -100, y: -100, opacity: 0 }}
         whileInView={{ x: 0, y: 0, opacity: 1 }}
         transition={{ type: 'spring', stiffness: 200, damping: 15 }}
-        className="card-box w-[90vw] sm:w-[90vw] md:w-[75vw] lg:w-[72vw] max-h-[55vh] sm:max-h-[35vh] lg:max-h-[30vh] sm:text-lg sm:leading-snug text-center glassmorphism  py-4 px-2 text-xl font-bold mx-6 over overflow-hidden flex flex-col sm:flex-row items-center justify-center gap-2">
+        className="card-box w-[90vw] sm:w-[90vw] md:w-[75vw] lg:w-[72vw] h-full sm:text-lg sm:leading-snug text-center glassmorphism  py-4 px-2 text-xl font-bold mx-6 over overflow-hidden flex flex-col sm:flex-row items-center justify-center gap-2">
         <div className="text flex flex-col items-center justify-center gap-2 sm:gap-4 w-full h-full sm:order-1 sm:flex-[3]">
           <div className="">
             <h2 className='text-center py-0 text-violet-800 mx-0 text-4xl px-0 font-bold uppercase
@@ -408,7 +408,7 @@ const HomeInfo = ({ currentStage }) => {
             Feel free to contact me in any of the social links here.
           </motion.p>
 
-          <div className="social flex flex-wrap items-center justify-center gap-6 sm:gap-8">
+          <div className="social w-full flex flex-wrap items-center justify-center gap-6 sm:gap-12">
             <Link to={facebook} target="_blank" >
               <motion.div
                 initial={{ opacity: 0, y: -30, x: -30 }}
@@ -480,9 +480,9 @@ const HomeInfo = ({ currentStage }) => {
             initial={{ opacity: 0, y: -30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.2, delay: 0.2 }}
-            className="font-bold mt-4 text-base w-44 sm:w-96 inline-block left-0
+            className="font-bold mt-4 text-base w-full left-0 flex items-center justify-center
           sm:text-xl">
-            <Link className="btn !p-3 hover:text-fuchsia-700 flex items-center justify-between"
+            <Link className="btn !p-3 hover:text-fuchsia-700 flex items-center justify-between w-44 sm:w-96"
               to='/contact/'>
               <span className="">Send me a message</span>
               <BiRightArrowCircle className="animate-right  inline-block  text-2xl" />

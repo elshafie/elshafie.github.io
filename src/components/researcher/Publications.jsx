@@ -56,7 +56,7 @@ const Publications = () => {
               damping: 15,
               delay: 0.15 + (i * 0.03)
             }}
-            key={i} className='border-[1px] p-3 w-full flex flex-col lg:w-[40%] xl:w-[30%] lg:h-80 xl:h-72 items-center justify-center lg:justify-around gap-1 glassmorphism group'>
+            key={i} className='border-[1px] p-3 w-full flex flex-col lg:w-[40%] xl:w-[30%] lg:h-80 xl:h-80 items-center justify-center lg:justify-around gap-1 glassmorphism group'>
             <div className="title w-full flex flex-col flex-[1]">
 
               <h3 className='text-base sm:text-lg sm:leading-tight text-center tracking-tight pb-2 leading-tight font-semibold group-hover:translate-y-2 transition-all'>

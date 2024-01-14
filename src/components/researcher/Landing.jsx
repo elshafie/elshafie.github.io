@@ -14,7 +14,7 @@ import { motion } from 'framer-motion';
 const Landing = () => {
 
   return (
-    <section className="landing-researcher flex flex-col items-center justify-evenly sm:justify-evenly min-h-[94dvh] gap-0 overflow-hidden sm:min-h-[94vh] sm:gap-5" id='landing'>
+    <section className="landing-researcher flex flex-col items-center justify-evenly sm:justify-center min-h-[94dvh] gap-0 overflow-hidden sm:min-h-[94vh] sm:gap-2" id='landing'>
 
       <motion.div
         initial={{ opacity: 0, y: -50 }}

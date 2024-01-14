@@ -76,7 +76,7 @@ const Home = ({ mode }) => {
 
       <section className="w-full h-[89vh] relative overflow-hidden">
 
-        <div className='absolute w-full top-6 sm:top-20 md:top-10 left-0 right-0 z-10 flex items-center justify-center'>
+        <div className='absolute w-full h-[60%] sm:h-[40%] top-6 sm:top-20 md:top-10 left-0 right-0 z-10 flex items-center justify-center'>
           {currentStage && <HomeInfo currentStage={currentStage} />}
         </div>
 

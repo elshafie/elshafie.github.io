@@ -33,8 +33,14 @@ const Researcher = () => {
   }, [handleProgress])
 
 
+  useEffect(() => {
+
+
+  }, [])
+
+
   return (
-    <main className={`researcher bg-slate-300/30 p-2 min-h-[90vh] font-poppins`}>
+    <main className={`researcher bg-slate-300/30 p-2 font-poppins`}>
       <div className={`progress h-2 fixed bg-blue-600 left-0 top-[5vh] z-50`} style={{ width: progressHeight + '%' }} />
 
       <Landing />

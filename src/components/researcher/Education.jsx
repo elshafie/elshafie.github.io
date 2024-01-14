@@ -48,7 +48,7 @@ const Education = () => {
 
       <div className='cards relative flex flex-col sm:flex-row items-center justify-center gap-4 p-2 min-h-[50vh] w-full'>
 
-        <ol className="flex flex-wrap flex-col sm:flex-row items-center justify-center gap-4 sm:gap-1 sm:flex w-full">
+        <ol className="flex flex-wrap flex-col sm:flex-row items-center justify-center gap-4 sm:gap-10 sm:flex w-full">
           {
             education.map((education, i) => {
 

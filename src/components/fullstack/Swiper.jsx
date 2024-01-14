@@ -71,8 +71,8 @@ const Slider = ({ data, modal, setModal, setGroup, setCurrentIndex }) => {
                   <h3 className='text-lg font-bold leading-tight'>{certificate.name}</h3>
                 </div>
 
-                <div className="img w-[85%] 2xl:w-[70%] cursor-pointer" onClick={() => { setModal(true); setGroup(data) }}>
-                  <img src={certificate.img} alt={certificate.name} className='rounded-xl' />
+                <div className="img w-[80%] 2xl:w-[70%] cursor-pointer" onClick={() => { setModal(true); setGroup(data) }}>
+                  <img src={certificate.img} alt={certificate.name} className='rounded-2xl object-contain' />
                 </div>
 
                 <div className="link w-full flex items-center justify-end pr-6">

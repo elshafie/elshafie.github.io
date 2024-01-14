@@ -61,7 +61,7 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="3d-section relative flex items-center justify-center flex-[5] md:p-6 w-full h-full">
+      <div className="3d-section relative flex items-center justify-center flex-[5] md:p-6 w-full lg:w-[80%] h-full">
 
         <Canvas
           frameloop="demand"
